@@ -62,3 +62,4 @@ for i in a:
 
 for i in b:
     print(test.isNumber(i), "\t--->\t", i)
+    
