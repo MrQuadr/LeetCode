@@ -1,4 +1,4 @@
-#
+# 13. Roman to Integer -> https://leetcode.com/problems/roman-to-integer/description/
 
 class Solution:
 
@@ -23,8 +23,8 @@ class Solution:
 
         return value
 
-
-a = "MCXCIV"
-test = Solution()
-print(test.romanToInt(a))
+if __name__ == "__main__":
+    a = "MCXCIV"
+    test = Solution()
+    print(test.romanToInt(a))
     

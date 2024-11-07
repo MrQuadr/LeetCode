@@ -5,7 +5,9 @@ class Solution:
     def __init__(self) -> None:
         pass
 
-a = []
-test = Solution()
-print(test.(a))
+
+if __name__ == "__main__":
+    a = []
+    test = Solution()
+    print(test(a))
     

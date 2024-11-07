@@ -1,4 +1,4 @@
-#
+# 27. Remove Element -> https://leetcode.com/problems/remove-element/description/
 
 from typing import List
 
@@ -25,9 +25,9 @@ class Solution:
         
         return i, nums[:i]
                 
-        
-a = [2,2,2,3,2,2,3]
-b = 2
-test = Solution()
-print(test.removeElement(a,b))
+if __name__ == "__main__":          
+    a = [2,2,2,3,2,2,3]
+    b = 2
+    test = Solution()
+    print(test.removeElement(a,b))
     

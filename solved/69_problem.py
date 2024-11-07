@@ -1,4 +1,4 @@
-#
+# 69. Sqrt(x) -> https://leetcode.com/problems/sqrtx/description/
 
 class Solution:
 
@@ -19,8 +19,8 @@ class Solution:
                 return z
 
 
-
-a = 1000
-test = Solution()
-print(test.mySqrt(a))
+if __name__ == "__main__": 
+    a = 1000
+    test = Solution()
+    print(test.mySqrt(a))
     

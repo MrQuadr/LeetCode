@@ -1,4 +1,4 @@
-# Definition for singly-linked list.
+# 21. Merge Two Sorted Lists -> https://leetcode.com/problems/merge-two-sorted-lists/description/
 
 from typing import Optional
 
@@ -27,6 +27,7 @@ class Solution:
 
         return head.next
 
+
 def convertNode(l: Optional[list]):
     t = None
     c = len(l) - 1
@@ -40,13 +41,14 @@ def printNode(l: Optional[ListNode]):
         print(l.val, end=t)
         l = l.next
 
-a = convertNode([1,2,4])
-b = convertNode([1,3,4])
+if __name__ == "__main__":
+    a = convertNode([1,2,4])
+    b = convertNode([1,3,4])
 
-printNode(a)
-printNode(b)
+    printNode(a)
+    printNode(b)
 
-test = Solution()
-c = test.mergeTwoLists(a,b)
+    test = Solution()
+    c = test.mergeTwoLists(a,b)
 
-printNode(c)
+    printNode(c)

@@ -1,4 +1,4 @@
-#
+# 26. Remove Duplicates from Sorted Array -> https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
 from typing import List
 
@@ -15,8 +15,9 @@ class Solution:
                 count += 1
                 nums[count] = i
         return (count + 1), nums[:(count + 1)]
-        
-a = [1,1,2]
-test = Solution()
-print(test.removeDuplicates(a))
+
+if __name__ == "__main__":      
+    a = [1,1,2]
+    test = Solution()
+    print(test.removeDuplicates(a))
     
