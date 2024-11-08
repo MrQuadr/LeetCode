@@ -7,13 +7,7 @@ class Solution:
 
     def getMaximumXor(self, nums: list[int], maximumBit: int) -> list[int]:
         maximum = (1 << maximumBit) - 1
-        answer = []
-
-        for num in nums:
-            maximum ^= num
-            answer.append(maximum)
-
-        answer.reverse()
+        answer = [maximum := maximum ^ num for num in nums][::-1]
         return answer
 
 if __name__ == "__main__":
